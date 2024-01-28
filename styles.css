@@ -1,0 +1,54 @@
+/* Shared Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+/* Banner Styles */
+.banner {
+    /* margin: 50px 150px 0px 150px; */
+    text-align: center;
+    background-image: 
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url(resources/Banner\ Image.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    width: 1320px;
+height: 600px;
+
+margin: 50px 150px 0px 150px;
+}
+
+/* .background { */
+    /* margin: 50px 150px 0px 150px; */
+/* } */
+
+.newyear {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 177px 530px 0px 530px;
+}
+
+.newyearparty {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0px 344px 177px 344px;
+}
