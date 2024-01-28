@@ -155,54 +155,145 @@ body {
     margin-top: 68px;
     margin-right: 130px;
 }
+
 /* Section venue */
-.venue{
+.venue {
     width: 1320px;
-height: 482px;
-flex-shrink: 0;
-background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-margin: 50px 150px 0px 150px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 50px 150px 0px 150px;
 
 }
-.venue-txt-holder{
+
+.venue-txt-holder {
     padding-top: 100px;
     margin-left: 385px;
 }
-.venue p{
+
+.venue p {
     color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
 }
-.redtxt{
+
+.redtxt {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 175% */
-text-transform: capitalize;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
 }
-.venue button{
+
+.venue button {
     border-radius: 8px;
-background: #F00;
-display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-margin-left: 590px;
-margin-top: 64px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 590px;
+    margin-top: 64px;
+}
+
+/* Section New Best Offer */
+.new-best-offer {
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+    margin: 50px 150px 0px 150px;
+    display: flex;
+}
+
+.new-best-offer-col1 {
+    margin-top: 62px;
+}
+
+.new-best-offer-col1 h4 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.new-best-offer-col1 h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.new-best-offer-col1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.new-best-offer-col2 {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    margin-left: 70px;
+}
+
+.new-best-offer-col2 img {
+    padding: 49px;
+}
+
+.new-best-offer-col3 {
+    margin-left: 118px;
+}
+
+.new-best-offer-col3 h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 62px;
+}
+
+.new-best-offer-col3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-top: 16px;
+}
+
+.new-best-offer-col3 img {
+    margin-top: 43px;
 }
