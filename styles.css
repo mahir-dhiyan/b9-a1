@@ -211,14 +211,16 @@ body {
     text-transform: uppercase;
     margin-left: 590px;
     margin-top: 64px;
+    border: none;
 }
 
 /* Section New Best Offer */
 .new-best-offer {
     width: 1600px;
-    height: 7335px;
+    /* height: 733px; */
     background: #FFF;
     margin: 50px 150px 0px 150px;
+
     display: flex;
 }
 
@@ -233,7 +235,7 @@ body {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    /* line-height: normal; */
 }
 
 .new-best-offer-col1 h2 {
@@ -281,6 +283,7 @@ body {
     font-weight: 700;
     line-height: normal;
     margin-top: 62px;
+
 }
 
 .new-best-offer-col3 p {
@@ -290,10 +293,93 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
     margin-top: 16px;
 }
 
 .new-best-offer-col3 img {
     margin-top: 43px;
+}
+/* Section Holiday Sale */
+.holiday-sale{
+    margin: 50px 150px 0px 150px;
+    /* text-align: center; */
+    /* align-items: center; */
+    background: #FFF;
+    width: 1600px;
+    
+   
+ 
+
+}
+.holiday-sale h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday-sale h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday-sale>div>h1>span{
+    color: #F00;
+/* text-align: center; */
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.holiday-sale p{
+    color: rgba(7, 2, 17, 0.60);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    /* width: 1068px; */
+}
+
+.holiday-sale-image{
+    display: flex;
+    width: 1320px;
+    background-image: url(resources/Rectangle\ 2.png), url(resources/Rectangle\ 1.png);
+    background-repeat: no-repeat, no-repeat;
+   background-position: left bottom, top right;
+   background-size: auto;
+   margin-top: 64px;
+}
+.holiday-sale-image>.box{
+    width: 620px;
+height: 662.07px;
+flex-shrink: 0;
+margin-left: 0;
+margin-right: 0;
+
+
+
+}
+.holiday-sale-image>.discount{
+    width: 206.841px;
+height: 206.841px;
+/* flex-shrink: 0; */
+margin-left: 200px;
+margin-right: 0;
+}
+/* .holiday-sale-image>.girl{
+    width: 429px;
+height: 433px;
+float: right;
+
+} */
+.holiday-sale-txt{
+    margin-left: 350px;
+    /* text-align: center; */
 }
