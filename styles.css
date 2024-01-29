@@ -299,19 +299,21 @@ body {
 .new-best-offer-col3 img {
     margin-top: 43px;
 }
+
 /* Section Holiday Sale */
-.holiday-sale{
+.holiday-sale {
     margin: 50px 150px 0px 150px;
     /* text-align: center; */
     /* align-items: center; */
     background: #FFF;
     width: 1600px;
-    
-   
- 
+
+
+
 
 }
-.holiday-sale h5{
+
+.holiday-sale h5 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -319,7 +321,8 @@ body {
     font-weight: 500;
     line-height: normal;
 }
-.holiday-sale h1{
+
+.holiday-sale h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -327,169 +330,264 @@ body {
     font-weight: 900;
     line-height: normal;
 }
-.holiday-sale>div>h1>span{
+
+.holiday-sale>div>h1>span {
     color: #F00;
-/* text-align: center; */
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    /* text-align: center; */
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
-.holiday-sale p{
+
+.holiday-sale p {
     color: rgba(7, 2, 17, 0.60);
     /* text-align: center; */
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
     /* width: 1068px; */
 }
 
-.holiday-sale-image{
+.holiday-sale-image {
     display: flex;
     width: 1320px;
     background-image: url(resources/Rectangle\ 2.png), url(resources/Rectangle\ 1.png);
     background-repeat: no-repeat, no-repeat;
-   background-position: left bottom, top right;
-   background-size: auto;
-   margin-top: 64px;
+    background-position: left bottom, top right;
+    background-size: auto;
+    margin-top: 64px;
 }
-.holiday-sale-image>.box{
+
+.holiday-sale-image>.box {
     width: 620px;
-height: 662.07px;
-flex-shrink: 0;
-margin-left: 0;
-margin-right: 0;
+    height: 662.07px;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
 
 
 
 }
-.holiday-sale-image>.discount{
+
+.holiday-sale-image>.discount {
     width: 206.841px;
-height: 206.841px;
-/* flex-shrink: 0; */
-margin-left: 200px;
-margin-right: 0;
+    height: 206.841px;
+    /* flex-shrink: 0; */
+    margin-left: 200px;
+    margin-right: 0;
 }
+
 /* .holiday-sale-image>.girl{
     width: 429px;
 height: 433px;
 float: right;
 
 } */
-.holiday-sale-txt{
+.holiday-sale-txt {
     margin-left: 350px;
     /* text-align: center; */
 }
+
 /* Section Portfolio */
-.portfolio{
+.portfolio {
     margin: 50px 150px 0px 150px;
     /* width: 1320px; */
 }
-.portfolio h4{
+
+.portfolio h4 {
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.portfolio h2{
+
+.portfolio h2 {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 }
-.portfolio p{
+
+.portfolio p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 896px;
-margin-bottom: 48px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    margin-bottom: 48px;
 }
-.portfolio img{
+
+.portfolio img {
     width: 424px;
-height: 450px;
-flex-shrink: 0;
-margin-right: 24px;
-margin-bottom: 24px;
+    height: 450px;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
+
 /* Section Newletter */
-.newsletter{
+.newsletter {
     margin: 50px 150px 0px 150px;
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-width: 1320px;
-height: 590px;
-flex-shrink: 0;
-padding-top     : 80px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 590px;
+    flex-shrink: 0;
+    padding-top: 80px;
 
 }
-.mail{
-margin-left: 585px;
+
+.mail {
+    margin-left: 585px;
 }
 
-.newsletter h2{
+.newsletter h2 {
     color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 }
-.newsletter p{
+
+.newsletter p {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 896px;
-margin-left: 217px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    margin-left: 217px;
 }
-#put-mail{
+
+#put-mail {
     margin-left: 336px;
     margin-top: 48px;
     border-radius: 50px 0px 0px 50px;
     border: none;
-background: #FFF;
-width: 438px;
-height: 72px;
-flex-shrink: 0;
-/* placeholder style */
-color: rgba(7, 2, 17, 0.30);
+    background: #FFF;
+    width: 438px;
+    height: 72px;
+    flex-shrink: 0;
+    /* placeholder style */
+    color: rgba(7, 2, 17, 0.30);
 
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.subscribe{
+
+.subscribe {
     width: 210px;
-height: 72px;
-flex-shrink: 0;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-border: none;
-/* placeholde Style */
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    /* placeholde Style */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.foot-col-1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.foot-col-2 {
+    margin-left: 125px;
+    margin-top: 298px;
+}
+
+.foot-col-3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-top: 120px;
+    margin-left: 126px;
+}
+
+.number {
+    display: flex;
+}
+
+.web-address {
+    display: flex;
+}
+
+.number img {
+    margin-right: 16px;
+}
+
+.web-address img {
+    margin-right: 16px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 260px;
+}
+
+.foot-col-3 button {
+    margin-top: 260px;
+    margin-left: 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: none;
 }
